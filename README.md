@@ -3,6 +3,8 @@ Works with MacOS
 
 Clone the Repository or Download as a Zip file
 ### Quick Start
+First, once you have cloned or downloaded and unzipped the files into a location - open a terminal window and cd into the project directory.
+
 Run the shell script by executing the command (within your project directory):
 ```
 ./start_project.sh
