@@ -5,6 +5,8 @@ Clone the Repository or Download as a Zip file
 ### Quick Start
 First, once you have cloned or downloaded and unzipped the files into a location - open a terminal window and cd into the project directory.
 
+If you dont have python installed - go online and install python through homebrew.
+
 Run the shell script by executing the command (within your project directory):
 ```
 ./start_project.sh
