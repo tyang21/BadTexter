@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd backend/backend
 # Step 1: Install Poetry
 echo "Installing Poetry..."
 curl -sSL https://install.python-poetry.org | python3 -
@@ -9,7 +10,6 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Step 2: Change directory to /backend/backend and install dependencies with Poetry
 echo "Changing to /backend/backend and installing dependencies with Poetry..."
-cd backend/backend
 poetry install
 
 # Step 4: Launch the Uvicorn backend server and store the PID
