@@ -1,11 +1,13 @@
 ## Am I a Bad Texter (v. 0.1.1)
 Works with MacOS  
-
-You can either follow the directions below, or run the shell script by executing the command (within your project directory):
+### Quick Start
+Run the shell script by executing the command (within your project directory):
 ```
 ./start_project.sh
 ```
 When you see the green checkmark that says "compiled" - go to http://localhost:3000 to see if you are cooked! When you are done , simply press enter in the terminal project to kill the process.
+
+### Manual Loading and Testing
 
 You need to use the following packages to utilize
 
