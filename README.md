@@ -1,4 +1,4 @@
-## Am I a Bad Texter (v. 0.1.0)
+## Am I a Bad Texter (v. 0.1.1)
 Works with MacOS  
 
 You can either follow the directions below, or run the shell script within this directory labeled
