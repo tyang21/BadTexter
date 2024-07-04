@@ -1,5 +1,7 @@
 ## Am I a Bad Texter (v. 0.1.1)
-Works with MacOS  
+Works with MacOS
+
+Clone the Repository or Download as a Zip file
 ### Quick Start
 Run the shell script by executing the command (within your project directory):
 ```
