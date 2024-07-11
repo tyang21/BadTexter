@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from collections import Counter
 from imessage_reader import fetch_data
 import logging
+import os
 
 app = FastAPI()
 app.add_middleware(
@@ -31,8 +32,9 @@ async def log_requests(request: Request, call_next):
 
 @app.post("/process")
 async def process(item: Item):
+    username = os.getlogin()
     # Example processing: Count the frequency of each character
-    DB_PATH = "/Users/tyleryang//Library/Messages/chat.db"
+    DB_PATH = f"/Users/{username}//Library/Messages/chat.db"
 
     # Create a FetchData instance
     fd = fetch_data.FetchData(DB_PATH)
